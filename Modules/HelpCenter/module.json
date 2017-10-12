@@ -1,0 +1,16 @@
+{
+    "name": "HelpCenter",
+    "alias": "helpcenter",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\HelpCenter\\Providers\\HelpCenterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

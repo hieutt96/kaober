@@ -1,0 +1,16 @@
+{
+    "name": "Version1",
+    "alias": "version1",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Version1\\Providers\\Version1ServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

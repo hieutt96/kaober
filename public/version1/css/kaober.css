@@ -1,0 +1,179 @@
+/*
+ * Kaober jsc copyright
+*/
+
+.main-top {
+	font-weight: 600;
+}
+
+.modal-resize {
+	width: 550px;
+}
+
+#body-filter1 {
+	width: 400px;
+}
+
+.filter-product {
+	width: 60% !important;
+	margin: 40px auto;
+
+}
+
+.image-detail {
+	/*max-width: 365px;*/
+}
+
+.price-detail {
+	/*max-width: 365px;*/
+}
+
+.avatar {
+	border-radius: 42px;
+	margin-right: 10px;
+	height: 48px;
+	width: 48px;
+	/*padding: 2px;*/
+	/*border: 1px solid #dbdbdb;*/
+}
+
+.checkout-login-form {
+	width:100%;
+}
+
+
+.checkout-is-centered {
+	width: 50%;
+ 	margin: 0 auto;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .checkout-is-centered {
+  		width: 100%;
+  }
+  .post-title {
+	  	font-size: 24px;
+	  	font-weight: 700;
+  }
+
+  .post-content {
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: .21px;
+	}
+
+	.main-post {
+		/*width: 70%;*/
+		align-items: center;
+		margin: auto;
+	}
+
+	.div-help {
+	    width: 80% important!;
+	    margin: auto;
+	  }
+}
+
+@media screen and (max-width: 1024px) {
+  .filter {
+  		margin-left: 21px;
+  }
+}
+
+.avatar-nav {
+	background-color: #F2F2F2 !important;
+    box-shadow: 0 0 0 2px #DBDBDB !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+    vertical-align: middle !important;
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.filter {
+	margin-top: 37px;
+}
+
+/*fix top*/
+.fixed-top {
+	position:fixed;
+	top:0px;
+	width: 100%;
+	z-index: 100;
+}
+/* cách top khoảng 45px, dùng khi fix top */
+.top-45 {
+	margin-top: 45.5px;
+}
+
+/* blog, post */
+.image-background {
+	background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    /*height: 100%;*/
+    top: 0;
+    left: 0;
+}
+
+.thumbnail-blog {
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+	width: 100%;
+	background-position: center center;
+}
+
+.main-post {
+	width: 60%;
+	align-items: center;
+	margin: auto;
+}
+
+.post-title {
+	letter-spacing: -1px;
+	font-weight: 700;
+}
+
+.share-social {
+	margin-top: 15px;
+}
+
+.post-content {
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: .21px;
+}
+
+.nav-item img {
+    max-height: 3rem;
+}
+.navtop {
+ height: 4em;
+}
+
+
+.pagination li span {
+	border-color: #dbdbdb;
+	min-width: 2.25em;
+	margin-left: 20px;
+}
+
+
+/*
+HELP CENTER
+*/
+
+
+
+/* dropdown */
+.dropcustom {
+
+}
+
+.select select:hover {
+	border-color: #fff;
+}

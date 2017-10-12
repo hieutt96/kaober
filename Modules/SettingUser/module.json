@@ -1,0 +1,16 @@
+{
+    "name": "SettingUser",
+    "alias": "settinguser",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SettingUser\\Providers\\SettingUserServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
